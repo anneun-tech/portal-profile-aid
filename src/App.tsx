@@ -21,8 +21,7 @@ const App = () => (
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/auth" element={<Auth />} />
-        <Route path="/profile" element={<Profile />} /> {/* Keep this */}
-        {/* <Route path="/student-portal" element={<StudentPortal />} />  <-- REMOVE THIS LINE */}
+        <Route path="/profile" element={<Profile />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

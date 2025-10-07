@@ -50,22 +50,13 @@ export const Navbar = ({ user, isAdmin }: NavbarProps) => {
                 Profile
               </Button>
               {isAdmin && (
-                <>
-                  <Button
-                    variant="ghost"
-                    onClick={() => navigate("/admin")}
-                    className="transition-all hover:scale-105"
-                  >
-                    Admin Panel
-                  </Button>
-                  <Button
-                    variant="ghost"
-                    onClick={() => navigate("/admin")}
-                    className="transition-all hover:scale-105"
-                  >
-                    Admin Dashboard
-                  </Button>
-                </>
+                <Button
+                  variant="ghost"
+                  onClick={() => navigate("/admin")}
+                  className="transition-all hover:scale-105"
+                >
+                  Admin Dashboard
+                </Button>
               )}
             </div>
           )}
