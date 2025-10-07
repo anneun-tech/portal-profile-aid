@@ -105,7 +105,7 @@ const Index = () => {
                 Record your NCC wing, regimental number, ranks, and enrollment information.
               </p>
               {user && (
-                <Button onClick={() => navigate("/student-portal")} variant="secondary" className="w-full">
+                <Button onClick={() => navigate("/profile")} variant="secondary" className="w-full">
                   Update Details
                 </Button>
               )}
@@ -122,7 +122,7 @@ const Index = () => {
                 Add and manage your internship and placement records for future reference.
               </p>
               {user && (
-                <Button onClick={() => navigate("/student-portal")} variant="secondary" className="w-full">
+                <Button onClick={() => navigate("/profile")} variant="secondary" className="w-full">
                   Add Experience
                 </Button>
               )}
